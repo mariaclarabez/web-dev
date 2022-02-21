@@ -1,77 +1,409 @@
-.wd-body {
-    background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+
+@mariaclarabez
+stephechung
+/
+web-dev
+Private
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+web-dev/public/a4/twitter/twitter.css
+
+Stephanie Chung a4 bootstrap fa21
+Latest commit 8524870 on Oct 7, 2021
+History
+0 contributors
+381 lines (316 sloc)  5.74 KB
+
+.wd-top-padding{
+    margin-top:15px;
 }
-.wd-border {
-    border: solid rgb(47, 51, 54);
+
+.left-margin{
+    margin-left: 8px;
 }
-.wd-row {
-    display: flex;
+
+.img-container {
+    position: relative;
+    /*text-align: center;*/
+    color: white;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
-.wd-column {
-    flex: 50%;
-    padding: 0px;
+
+.bottom-left {
+    position: absolute;
+    left: 16px;
+    bottom: 12px;
+    left: 16px;
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
 }
-.wd-gear-img {
-    width:40px;
-    height: 40px;
+
+.wd-content-holder {
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 0;
+}
+
+.wd-float-right{
     float: right;
-    margin-right: 12px;
 }
-.wd-hyperlinks {
-    padding-bottom: 20px;
-}
-.wd-hyperlink-item {
+
+.username-font{
     font-size: 15px;
-    padding: 16px;
-    color: rgb(110, 118, 125);
+    /*white-space: nowrap;*/
+    /*transform: translateX(-10px)*/
 }
-.wd-hyperlink-item-bold{
-    font-size: 15px;
-    padding: 16px;
-    color: rgb(29,161,242);
-    border-bottom: 2px solid rgb(29,161,242);
+
+.dark-mode{
+    background-color: black;
+    color: #d9d9d9;
 }
-.wd-topic {
-    font-size: 13px;
-    color: rgb(110, 118, 125);
-    margin: 5px 5px 5px 16px;
+
+.nav-item > a{
+    color: darkgray;
+    background-color: black;
+}
+
+.color-white{
+    color: #d9d9d9;
+}
+
+.active{
+    color: #d9d9d9;
+    border-bottom: #1c9cf0;
+    border-bottom-style: solid;
+}
+
+.nav-item > a:hover {
+    color: #d9d9d9;
+    border-bottom: #1c9cf0;
+    border-bottom-style: solid;
+}
+
+/*.nav-link-override {*/
+/*    color: #d9d9d9;*/
+/*}*/
+
+/*.nav-item-override:active {*/
+/*    background-color: black;*/
+/*    color: #d9d9d9;*/
+/*    border-bottom: 1px #1c9cf0;*/
+/*}*/
+
+.tweet-button{
     padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
 }
+
+.follow-button{
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0;
+}
+
+.follow-button1{
+    border: 0;
+}
+
+.button-primary-override:hover{
+    /*.button-primary-override:active,*/
+    /*.button-primary-override:focus,*/
+    /*.button-primary-override:visited{*/
+    background-color: white ;
+    color: black ;
+    border: 0;
+}
+
+.sub-dark-mode{
+    background-color: #212327;
+    color: white;
+}
+
+.overlay-font{
+    color: black;
+}
+
+.overlay-image{
+    background-color: white;
+}
+
+.tweet-round{
+    border-radius: 50px;
+    background-color: #1c9cf0;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.button-primary-override2:hover{
+    /*.button-primary-override:active,*/
+    /*.button-primary-override:focus,*/
+    /*.button-primary-override:visited{*/
+    background-color: #1c9cf0;
+    color: white;
+    border: 0;
+}
+
+.round {
+    border-radius: 50px;
+    background-color: white;
+    border-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.wd-circle-icon{
+    border-radius: 40px;
+    width:50px;
+    height:50px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+}
+
+.push {
+    margin-left: auto;
+    /*margin-right: auto;*/
+}
+
+body {
+    background-color: black;
+    color: rgb(110, 118, 125);
+    margin-left: 16px;
+}
+
+.wd-link {
+    text-decoration: none;
+}
+
 .wd-title {
     font-size: 20px;
-    color: white;
-    margin: 5px 5px 5px 16px;
+    margin-top: 12px;
+    margin-bottom: 0;
 }
-.wd-num-tweets {
-    font-size: 13px;
+
+.wd-tweet-font {
+    font-size: 15px;
+}
+
+.wd-p-limit {
+    max-width: 506px;
+}
+
+.wd-margin-removed {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.wd-background-transparent {
+    border-style: solid;
+}
+
+.wd-search-twitter {
+    color: white;
+    background: #212327;
+    border-radius: 25px;
+    border-style: none;
+    width: 80%;
+    padding: 5px 5px 5px 55px;
+    /*margin-left: 16px;*/
+}
+
+*:focus {
+    outline: 0;
+}
+
+.wd-configuration {
+    color: rgb(29, 161, 242);
+    font-size: 32px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.wd-magnifying-glass {
+    position: relative;
+    margin-top: 15px;
+    left: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: black;
+    padding-left: 16px;
+}
+
+.grid-container > div {
+    background-color: black;
+    font-size: 15px;
+}
+
+.grid-item {
+    padding: 16px 16px 16px 16px;
+    font-size: 15px;
+}
+
+.wd-nav-link1 {
+    color: rgb(29, 161, 242);
+}
+
+.wd-nav-link2 {
     color: rgb(110, 118, 125);
-    margin: 5px 5px 5px 16px;
-    padding-bottom: 15px;
 }
-.wd-dividing-line {
-    border: 1px solid rgb(110, 118, 125);
+
+.wd-breakline {
+    width: 500px;
+    float: left;
+    border-color: rgb(110, 118, 125);
 }
-.wd-author {
-    font-size: 13px;
-    color: white;
-    margin: 5px 5px 5px 16px;
-    padding-top: 10px;
+
+.wd-grid-col-min {
+    width: 500px;
 }
-.wd-article-img {
-    width:100px;
-    height: 100px;
+
+.wd-bookmark-col-max {
+    width: 570px;
+}
+
+.wd-grid-col-right {
     float: right;
-    border-radius: 30px;
-    margin-right: 16px;
-    margin-top: 5px;
+    margin-right: 32px;
+    padding-left: 16px;
 }
-input[type=text] {
-    margin-left: 16px;
+
+.wd-tweet-border {
     border-radius: 50px;
-    background-color: darkgray;
+}
+
+.wd-tweet-subtitle {
+    /*font-size: 13px;*/
+    color: rgb(110, 118, 125);
+}
+
+.wd-tweet {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(110, 118, 125);
+    padding-top: 5px;
+    padding-left: 16px;
     color: white;
-    font-size: 12px;
-    width: 90%;
-    padding: 10px 18px;
+    overflow: auto;
+    padding-right: 16px;
+    padding-bottom: 8px;
+}
+
+.wd-border-overlap {
+    border-top-color: black;
+}
+
+.wd-image-adjust {
+    padding-bottom: 16px;
+}
+
+.wd-rounded-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    object-fit: cover;
+    float: right;
+}
+
+.wd-round-profile-image {
+    width: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    /*float: left;*/
+    margin-right: 12px;
+}
+
+.wd-bold-font {
+    font-weight: bold;
+}
+
+.wd-font-15{
+    font-size: 18px;
+}
+
+.wd-retweet-post {
+    max-width: 504px;
+}
+
+.wd-post-image {
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(110, 118, 125);
+    /*overflow: auto;*/
+}
+
+.wd-post-text {
+    /*display: inline-block;*/
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: 0;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(110, 118, 125);
+    border-top: black;
+    width: 480px;
+    padding: 12px 12px 12px 12px;
+    font-size: 15px;
+    /*overflow: auto;*/
+}
+
+.wd-gray-text {
+    color: darkgray;
+}
+
+.wd-light-text {
+    color: lightgray;
+}
+
+.wd-red-text {
+    color: red;
+}
+
+.flex-container {
+    display: flex;
+    margin-left: 0;
+    padding-bottom: 12px;
+}
+
+.flex-container > div {
+    padding-top: 12px;
+}
+
+.wd-icon-grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: black;
+    padding-left: 12px;
+}
+
+.wd-icon-grid-container > div {
+    background-color: black;
+    font-size: 15px;
 }

@@ -3,108 +3,1026 @@
 <head>
     <meta charset="UTF-8">
     <title>Explore</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+          crossorigin="anonymous">
     <link href="explore.css" rel="stylesheet"/>
 </head>
+<body>
+<div class="container wd-top-padding">
+    <!--S-->
+    <div class="d-none d-sm-block d-md-none fa-2x">
+        S
+        <div class="row">
+            <div class="col-2">
+                <!--    Left column-->
+                <div class="list-group wd-font-15">
+                    <a href="#"
+                       class="list-group-item list-group-item-action dark-mode" aria-current="true">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="home.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-home"></i></a>
+                    <a href="explore.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-hashtag"></i></a>
+                    <a href="notifications.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-bell"></i></a>
+                    <a href="messages.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-envelope"></i></a>
+                    <a href="bookmarks.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-bookmark"></i></a>
+                    <a href="#"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-list-ul"></i></a>
+                    <a href="profile.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-user"></i></a>
+                    <a href="#"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <span class="fa-stack fa-xs" style="float:left;">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="overlay-font fas fa-ellipsis-h fa-stack-1x fa-inverse"></i>
+                            </span>
+                        <span style="float:left;"></span>
+                    </a>
+                    <button class="btn btn-primary tweet-round wd-top-padding tweet-button button-primary-override2">
+                        Tweet
+                    </button>
+                </div>
+            </div>
+            <div class="col-10 wd-font-15">
+                <!--    Middle Content-->
+                <!--    Search Bar-->
+                <span class="wd-magnifying-glass"><i class="fas fa-search"></i></span>
+                <input class="wd-search-twitter" placeholder="Search Twitter"/>
+                <a class="wd-configuration wd-link" href="explore-settings.html"><i
+                        class="fas fa-cog"></i></a>
 
-<body class="wd-body">
-<div class="wd-border">
 
-    <div class="wd-row">
-        <div class="wd-column">
-            <input type="text" placeholder="Search Tuiter"/>
+                <!--            Nav Tabs-->
+                <ul class="nav wd-font-15 wd-top-padding">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="for-you.html">For you</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="trending.html">Trending</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="news.html">News</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="sports.html">Sports</a>
+                    </li>
+                </ul>
+
+                <!--            Main Content-->
+
+                <div class="img-container">
+                    <img src="https://earthsky.org/upl/2020/11/spacex-starship-prototype-2020-photo-e1604508831201.jpg"
+                         class="wd-content-holder">
+                    <span class="bottom-left">SpaceX's Starship</span>
+                </div>
+
+                <!--post1-->
+                <div class="wd-tweet">
+                    <div class="box">
+                        <div><span class="wd-tweet-subtitle">Web Development</span> <br>
+                            <span class="wd-bold-font">ReactJS</span> <i
+                                    class="fas fa-check-circle"></i><span class="wd-tweet-subtitle"> - 2h</span>
+                            <br>
+                            React.js is a component based front end library that makes it very easy
+                            to build Single Page Applications or SPAs
+                        </div>
+                        <div class="push"><img
+                                class="wd-rounded-image"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"/>
+                        </div>
+                    </div>
+                </div>
+
+                <!--    post2-->
+                <div class="wd-tweet wd-border-overlap">
+                    <div class="box">
+                        <div><span class="wd-tweet-subtitle">Web Development</span> <br>
+                            <span class="wd-bold-font">JavaScript</span> <i
+                                    class="fas fa-check-circle"></i><span class="wd-tweet-subtitle"> - 2h</span>
+                            <br>
+                            JavaScript is a programming language that can run on browsers as well as
+                            desktops<br>
+                            <span class="wd-tweet-subtitle">123K Tweets</span>
+                        </div>
+                        <div class="push"><img
+                                class="wd-rounded-image"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png"/>
+                        </div>
+                    </div>
+                </div>
+
+                <!--post3-->
+                <div class="wd-tweet wd-border-overlap">
+                    <div class="box">
+                        <div><span class="wd-tweet-subtitle">Web Development</span> <br>
+                            <span class="wd-bold-font">jQuery</span>
+                            <br>
+                            <span class="wd-tweet-subtitle">123K Tweets</span>
+                        </div>
+                        <div class="push"><img
+                                class="wd-rounded-image"
+                                src="https://openjsf.org/wp-content/uploads/sites/84/2019/10/jquery-logo-vertical_large_square.png"/>
+                        </div>
+                    </div>
+                </div>
+
+                <!--post4-->
+                <div class="wd-tweet wd-border-overlap">
+                    <div class="box">
+                        <div><span class="wd-tweet-subtitle">Web Development</span> <br>
+                            <span class="wd-bold-font">NodeJS </span><i
+                                    class="fas fa-check-circle"></i><span class="wd-tweet-subtitle"> - 2h</span>
+                            <br>
+                            <span class="wd-tweet-subtitle">123K Tweets</span>
+                        </div>
+                        <div class="push"><img
+                                class="wd-rounded-image"
+                                src="https://pbs.twimg.com/profile_images/1095952788021002241/3lWf8FMX.png"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
-        <div class="wd-column">
-        <a href="explore-settings.html">
-            <img src="gear.jpg"
-                 class = "wd-gear-img"></a>
+    </div>
+
+    <!--    M-->
+    <div class="d-none d-md-block d-lg-none fa-2x">
+        M
+        <div class="row">
+            <div class="col-2">
+                <!--    Left column-->
+                <div class="list-group wd-font-15">
+                    <a href="#"
+                       class="list-group-item list-group-item-action dark-mode" aria-current="true">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="home.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-home"></i></a>
+                    <a href="explore.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-hashtag"></i></a>
+                    <a href="notifications.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-bell"></i></a>
+                    <a href="messages.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-envelope"></i></a>
+                    <a href="bookmarks.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-bookmark"></i></a>
+                    <a href="#"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-list-ul"></i></a>
+                    <a href="profile.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-user"></i></a>
+                    <a href="#"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <span class="fa-stack fa-xs" style="float:left;">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="overlay-font fas fa-ellipsis-h fa-stack-1x fa-inverse"></i>
+                            </span>
+                        <span style="float:left;"></span>
+                    </a>
+                    <button class="btn btn-primary tweet-round wd-top-padding tweet-button button-primary-override2">
+                        Tweet
+                    </button>
+                </div>
+            </div>
+            <div class="col-10 wd-font-15">
+                <!--    Middle Content-->
+                <!--    Search Bar-->
+                <span class="wd-magnifying-glass"><i class="fas fa-search"></i></span>
+                <input class="wd-search-twitter" placeholder="Search Twitter"/>
+                <a class="wd-configuration wd-link" href="explore-settings.html"><i
+                        class="fas fa-cog"></i></a>
+
+
+                <!--            Nav Tabs-->
+                <ul class="nav wd-font-15 wd-top-padding">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="for-you.html">For you</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="trending.html">Trending</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="news.html">News</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="sports.html">Sports</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="entertainment.html">Entertainment</a>
+                    </li>
+                </ul>
+
+                <!--            Main Content-->
+
+                <div class="img-container">
+                    <img src="https://earthsky.org/upl/2020/11/spacex-starship-prototype-2020-photo-e1604508831201.jpg"
+                         class="wd-content-holder">
+                    <span class="bottom-left">SpaceX's Starship</span>
+                </div>
+
+                <!--post1-->
+                <div class="wd-tweet">
+                    <div class="box">
+                        <div><span class="wd-tweet-subtitle">Web Development</span> <br>
+                            <span class="wd-bold-font">ReactJS</span> <i
+                                    class="fas fa-check-circle"></i><span class="wd-tweet-subtitle"> - 2h</span>
+                            <br>
+                            React.js is a component based front end library that makes it very easy
+                            to build Single Page Applications or SPAs
+                        </div>
+                        <div class="push"><img
+                                class="wd-rounded-image"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"/>
+                        </div>
+                    </div>
+                </div>
+
+                <!--    post2-->
+                <div class="wd-tweet wd-border-overlap">
+                    <div class="box">
+                        <div><span class="wd-tweet-subtitle">Web Development</span> <br>
+                            <span class="wd-bold-font">JavaScript</span> <i
+                                    class="fas fa-check-circle"></i><span class="wd-tweet-subtitle"> - 2h</span>
+                            <br>
+                            JavaScript is a programming language that can run on browsers as well as
+                            desktops<br>
+                            <span class="wd-tweet-subtitle">123K Tweets</span>
+                        </div>
+                        <div class="push"><img
+                                class="wd-rounded-image"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png"/>
+                        </div>
+                    </div>
+                </div>
+
+                <!--post3-->
+                <div class="wd-tweet wd-border-overlap">
+                    <div class="box">
+                        <div><span class="wd-tweet-subtitle">Web Development</span> <br>
+                            <span class="wd-bold-font">jQuery</span>
+                            <br>
+                            <span class="wd-tweet-subtitle">123K Tweets</span>
+                        </div>
+                        <div class="push"><img
+                                class="wd-rounded-image"
+                                src="https://openjsf.org/wp-content/uploads/sites/84/2019/10/jquery-logo-vertical_large_square.png"/>
+                        </div>
+                    </div>
+                </div>
+
+                <!--post4-->
+                <div class="wd-tweet wd-border-overlap">
+                    <div class="box">
+                        <div><span class="wd-tweet-subtitle">Web Development</span> <br>
+                            <span class="wd-bold-font">NodeJS </span><i
+                                    class="fas fa-check-circle"></i><span class="wd-tweet-subtitle"> - 2h</span>
+                            <br>
+                            <span class="wd-tweet-subtitle">123K Tweets</span>
+                        </div>
+                        <div class="push"><img
+                                class="wd-rounded-image"
+                                src="https://pbs.twimg.com/profile_images/1095952788021002241/3lWf8FMX.png"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
-    <div class="wd-hyperlinks">
-        <table>
-            <tr>
-                <th class="wd-hyperlink-item-bold">For you</th>
-                <th class="wd-hyperlink-item">Trending</th>
-                <th class="wd-hyperlink-item">COVID-19</th>
-                <th class="wd-hyperlink-item">News</th>
-                <th class="wd-hyperlink-item">Sports</th>
-                <th class="wd-hyperlink-item">Entertainment</th>
-            </tr>
-        </table>
-    </div>
-
-    <div>
-        <p class="wd-topic">Trending in Science</p>
-        <p class="wd-title">Starship</p>
-        <p class="wd-num-tweets">55.5K Tweets</p>
-
-        <hr class="wd-dividing-line" >
-
-        <p class="wd-topic">Trending in Sports</p>
-        <p class="wd-title">Mikaela Shiffrin</p>
-        <p class="wd-num-tweets">100.7K Tweets</p>
-
-        <hr class="wd-dividing-line" >
-    </div>
-
-    <div>
-        <div class="wd-row">
-            <div class="wd-column">
-                <p class="wd-author">The New York Times</p>
-                <p class="wd-title">Ut et volutpat justo, sed facilisis arcu</p>
+    <!--    L-->
+    <div class="d-none d-lg-block d-xl-none fa-2x">
+        L
+        <div class="row">
+            <div class="col-1">
+                <!--    Left column-->
+                <div class="list-group wd-font-15">
+                    <a href="#"
+                       class="list-group-item list-group-item-action dark-mode" aria-current="true">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="home.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-home"></i></a>
+                    <a href="explore.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-hashtag"></i></a>
+                    <a href="notifications.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-bell"></i></a>
+                    <a href="messages.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-envelope"></i></a>
+                    <a href="bookmarks.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-bookmark"></i></a>
+                    <a href="#"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-list-ul"></i></a>
+                    <a href="profile.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-user"></i></a>
+                    <a href="#"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <span class="fa-stack fa-xs" style="float:left;">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="overlay-font fas fa-ellipsis-h fa-stack-1x fa-inverse"></i>
+                            </span>
+                        <span style="float:left;"></span>
+                    </a>
+                    <button class="btn btn-primary tweet-round wd-top-padding tweet-button button-primary-override2">
+                        Tweet
+                    </button>
+                </div>
             </div>
-            <div class="wd-column">
-                <img src="landscape-1.jpg" class="wd-article-img">
+            <div class="col-7 wd-font-15">
+                <!--    Middle Content-->
+                <!--    Search Bar-->
+                <span class="wd-magnifying-glass"><i class="fas fa-search"></i></span>
+                <input class="wd-search-twitter" placeholder="Search Twitter"/>
+                <a class="wd-configuration wd-link" href="explore-settings.html"><i
+                        class="fas fa-cog"></i></a>
+
+
+                <!--            Nav Tabs-->
+                <ul class="nav wd-font-15 wd-top-padding">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="for-you.html">For you</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="trending.html">Trending</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="news.html">News</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="sports.html">Sports</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="entertainment.html">Entertainment</a>
+                    </li>
+                </ul>
+
+                <!--            Main Content-->
+
+                <div class="img-container">
+                    <img src="https://earthsky.org/upl/2020/11/spacex-starship-prototype-2020-photo-e1604508831201.jpg"
+                         class="wd-content-holder">
+                    <span class="bottom-left">SpaceX's Starship</span>
+                </div>
+
+                <!--post1-->
+                <div class="wd-tweet">
+                    <div class="box">
+                        <div><span class="wd-tweet-subtitle">Web Development</span> <br>
+                            <span class="wd-bold-font">ReactJS</span> <i
+                                    class="fas fa-check-circle"></i><span class="wd-tweet-subtitle"> - 2h</span>
+                            <br>
+                            React.js is a component based front end library that makes it very easy
+                            to build Single Page Applications or SPAs
+                        </div>
+                        <div class="push"><img
+                                class="wd-rounded-image"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"/>
+                        </div>
+                    </div>
+                </div>
+
+                <!--    post2-->
+                <div class="wd-tweet wd-border-overlap">
+                    <div class="box">
+                        <div><span class="wd-tweet-subtitle">Web Development</span> <br>
+                            <span class="wd-bold-font">JavaScript</span> <i
+                                    class="fas fa-check-circle"></i><span class="wd-tweet-subtitle"> - 2h</span>
+                            <br>
+                            JavaScript is a programming language that can run on browsers as well as
+                            desktops<br>
+                            <span class="wd-tweet-subtitle">123K Tweets</span>
+                        </div>
+                        <div class="push"><img
+                                class="wd-rounded-image"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png"/>
+                        </div>
+                    </div>
+                </div>
+
+                <!--post3-->
+                <div class="wd-tweet wd-border-overlap">
+                    <div class="box">
+                        <div><span class="wd-tweet-subtitle">Web Development</span> <br>
+                            <span class="wd-bold-font">jQuery</span>
+                            <br>
+                            <span class="wd-tweet-subtitle">123K Tweets</span>
+                        </div>
+                        <div class="push"><img
+                                class="wd-rounded-image"
+                                src="https://openjsf.org/wp-content/uploads/sites/84/2019/10/jquery-logo-vertical_large_square.png"/>
+                        </div>
+                    </div>
+                </div>
+
+                <!--post4-->
+                <div class="wd-tweet wd-border-overlap">
+                    <div class="box">
+                        <div><span class="wd-tweet-subtitle">Web Development</span> <br>
+                            <span class="wd-bold-font">NodeJS </span><i
+                                    class="fas fa-check-circle"></i><span class="wd-tweet-subtitle"> - 2h</span>
+                            <br>
+                            <span class="wd-tweet-subtitle">123K Tweets</span>
+                        </div>
+                        <div class="push"><img
+                                class="wd-rounded-image"
+                                src="https://pbs.twimg.com/profile_images/1095952788021002241/3lWf8FMX.png"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <!--    Right Column-->
+                <ul class="list-group wd-font-15">
+                    <li class="list-group-item wd-bold-font sub-dark-mode">Who to follow</li>
+                    <li class="list-group-item sub-dark-mode">
+                        <div class="box">
+                            <div><img
+                                    src="https://pbs.twimg.com/profile_images/498930484273889280/652rxwyK_400x400.png"
+                                    class="wd-circle-icon overlay-image"></div>
+                            <div class="left-margin username-font"><span
+                                    class="wd-bold-font">Java</span> <i
+                                    class="fas fa-check-circle"></i><br>@Java
+                            </div>
+                            <div class="push">
+                                <button class="btn btn-primary wd-float-right round follow-button1 button-primary-override">
+                                    Follow
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item sub-dark-mode">
+                        <div class="box">
+                            <div><img
+                                    src="https://pbs.twimg.com/profile_images/1405603367045324801/CaXrPnKL.jpg"
+                                    class="wd-circle-icon overlay-image"></div>
+                            <div class="left-margin username-font"><span class="wd-bold-font">Relativity Space</span>
+                                <i class="fas fa-check-circle"></i><br>@relativityspace
+                            </div>
+                            <div class="push">
+                                <button class="btn btn-primary wd-float-right round follow-button1 button-primary-override">
+                                    Follow
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item sub-dark-mode">
+                        <div class="box">
+                            <div><img
+                                    src="https://cdn.iconscout.com/icon/free/png-256/virgin-9-282900.png"
+                                    class="wd-circle-icon overlay-image"></div>
+                            <div class="left-margin username-font"><span class="wd-bold-font">Virgin Galactic</span>
+                                <i class="fas fa-check-circle"></i><br>@virgingalactic
+                            </div>
+                            <div class="push">
+                                <button class="btn btn-primary wd-float-right round follow-button1 button-primary-override">
+                                    Follow
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item sub-dark-mode">
+                        <div class="box">
+                            <div><img
+                                    src="https://pbs.twimg.com/profile_images/1321163587679784960/0ZxKlEKB_400x400.jpg"
+                                    class="wd-circle-icon overlay-image"></div>
+                            <div class="left-margin username-font"><span
+                                    class="wd-bold-font">NASA</span> <i
+                                    class="fas fa-check-circle"></i><br>@NASA
+                            </div>
+                            <div class="push">
+                                <button class="btn btn-primary wd-float-right round follow-button1 button-primary-override">
+                                    Follow
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item sub-dark-mode">
+                        <div class="box">
+                            <div><img
+                                    src="https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_400x400.png"
+                                    class="wd-circle-icon overlay-image"></div>
+                            <div class="left-margin username-font"><span
+                                    class="wd-bold-font">Tesla</span> <i
+                                    class="fas fa-check-circle"></i><br>@Tesla
+                            </div>
+                            <div class="push">
+                                <button class="btn btn-primary wd-float-right round follow-button1 button-primary-override">
+                                    Follow
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
-        <hr class="wd-dividing-line" >
     </div>
 
-    <div>
-        <div class="wd-row">
-            <div class="wd-column">
-                <p class="wd-topic">COVID-19</p>
-                <p class="wd-title">Praesent consequat laoreet nibh non ultricies</p>
+    <!--    XL-->
+    <div class="d-none d-xl-block d-xxl-none fa-2x">
+        XL
+        <div class="row">
+            <div class="col-2">
+                <!--    Left column-->
+                <div class="list-group wd-font-15">
+                    <a href="#"
+                       class="list-group-item list-group-item-action dark-mode" aria-current="true">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="home.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-home"></i> Home</a>
+                    <a href="explore.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-hashtag"></i> Explore</a>
+                    <a href="notifications.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-bell"></i> Notifications</a>
+                    <a href="messages.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-envelope"></i> Messages</a>
+                    <a href="bookmarks.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-bookmark"></i> Bookmarks</a>
+                    <a href="#"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-list-ul"></i> Lists</a>
+                    <a href="profile.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-user"></i> Profile</a>
+                    <a href="#"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <span class="fa-stack fa-xs" style="float:left;">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="overlay-font fas fa-ellipsis-h fa-stack-1x fa-inverse"></i>
+                            </span>
+                        <span style="float:left;">More</span>
+                    </a>
+                    <button class="btn btn-primary tweet-round wd-top-padding tweet-button button-primary-override2">
+                        Tweet
+                    </button>
+                </div>
             </div>
-            <div class="wd-column">
-                <img src="landscape-3.jpeg" class="wd-article-img">
+            <div class="col-6 wd-font-15">
+                <!--    Middle Content-->
+                <!--    Search Bar-->
+                <span class="wd-magnifying-glass"><i class="fas fa-search"></i></span>
+                <input class="wd-search-twitter" placeholder="Search Twitter"/>
+                <a class="wd-configuration wd-link" href="explore-settings.html"><i
+                        class="fas fa-cog"></i></a>
+
+
+                <!--            Nav Tabs-->
+                <ul class="nav wd-font-15 wd-top-padding">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="for-you.html">For you</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="trending.html">Trending</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="news.html">News</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="sports.html">Sports</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="entertainment.html">Entertainment</a>
+                    </li>
+                </ul>
+
+                <!--            Main Content-->
+
+                <div class="img-container">
+                    <img src="https://earthsky.org/upl/2020/11/spacex-starship-prototype-2020-photo-e1604508831201.jpg"
+                         class="wd-content-holder">
+                    <span class="bottom-left">SpaceX's Starship</span>
+                </div>
+
+                <!--post1-->
+                <div class="wd-tweet">
+                    <div class="box">
+                        <div><span class="wd-tweet-subtitle">Web Development</span> <br>
+                            <span class="wd-bold-font">ReactJS</span> <i
+                                    class="fas fa-check-circle"></i><span class="wd-tweet-subtitle"> - 2h</span>
+                            <br>
+                            React.js is a component based front end library that makes it very easy
+                            to build Single Page Applications or SPAs
+                        </div>
+                        <div class="push"><img
+                                class="wd-rounded-image"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"/>
+                        </div>
+                    </div>
+                </div>
+
+                <!--    post2-->
+                <div class="wd-tweet wd-border-overlap">
+                    <div class="box">
+                        <div><span class="wd-tweet-subtitle">Web Development</span> <br>
+                            <span class="wd-bold-font">JavaScript</span> <i
+                                    class="fas fa-check-circle"></i><span class="wd-tweet-subtitle"> - 2h</span>
+                            <br>
+                            JavaScript is a programming language that can run on browsers as well as
+                            desktops<br>
+                            <span class="wd-tweet-subtitle">123K Tweets</span>
+                        </div>
+                        <div class="push"><img
+                                class="wd-rounded-image"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png"/>
+                        </div>
+                    </div>
+                </div>
+
+                <!--post3-->
+                <div class="wd-tweet wd-border-overlap">
+                    <div class="box">
+                        <div><span class="wd-tweet-subtitle">Web Development</span> <br>
+                            <span class="wd-bold-font">jQuery</span>
+                            <br>
+                            <span class="wd-tweet-subtitle">123K Tweets</span>
+                        </div>
+                        <div class="push"><img
+                                class="wd-rounded-image"
+                                src="https://openjsf.org/wp-content/uploads/sites/84/2019/10/jquery-logo-vertical_large_square.png"/>
+                        </div>
+                    </div>
+                </div>
+
+                <!--post4-->
+                <div class="wd-tweet wd-border-overlap">
+                    <div class="box">
+                        <div><span class="wd-tweet-subtitle">Web Development</span> <br>
+                            <span class="wd-bold-font">NodeJS </span><i
+                                    class="fas fa-check-circle"></i><span class="wd-tweet-subtitle"> - 2h</span>
+                            <br>
+                            <span class="wd-tweet-subtitle">123K Tweets</span>
+                        </div>
+                        <div class="push"><img
+                                class="wd-rounded-image"
+                                src="https://pbs.twimg.com/profile_images/1095952788021002241/3lWf8FMX.png"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <!--    Right Column-->
+                <ul class="list-group wd-font-15">
+                    <li class="list-group-item wd-bold-font sub-dark-mode">Who to follow</li>
+                    <li class="list-group-item sub-dark-mode">
+                        <div class="box">
+                            <div><img
+                                    src="https://pbs.twimg.com/profile_images/498930484273889280/652rxwyK_400x400.png"
+                                    class="wd-circle-icon overlay-image"></div>
+                            <div class="left-margin username-font"><span
+                                    class="wd-bold-font">Java</span> <i
+                                    class="fas fa-check-circle"></i><br>@Java
+                            </div>
+                            <div class="push">
+                                <button class="btn btn-primary wd-float-right round follow-button button-primary-override">
+                                    Follow
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item sub-dark-mode">
+                        <div class="box">
+                            <div><img
+                                    src="https://pbs.twimg.com/profile_images/1405603367045324801/CaXrPnKL.jpg"
+                                    class="wd-circle-icon overlay-image"></div>
+                            <div class="left-margin username-font"><span class="wd-bold-font">Relativity Space</span>
+                                <i class="fas fa-check-circle"></i><br>@relativityspace
+                            </div>
+                            <div class="push">
+                                <button class="btn btn-primary wd-float-right round follow-button button-primary-override">
+                                    Follow
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item sub-dark-mode">
+                        <div class="box">
+                            <div><img
+                                    src="https://cdn.iconscout.com/icon/free/png-256/virgin-9-282900.png"
+                                    class="wd-circle-icon overlay-image"></div>
+                            <div class="left-margin username-font"><span class="wd-bold-font">Virgin Galactic</span>
+                                <i class="fas fa-check-circle"></i><br>@virgingalactic
+                            </div>
+                            <div class="push">
+                                <button class="btn btn-primary wd-float-right round follow-button button-primary-override">
+                                    Follow
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item sub-dark-mode">
+                        <div class="box">
+                            <div><img
+                                    src="https://pbs.twimg.com/profile_images/1321163587679784960/0ZxKlEKB_400x400.jpg"
+                                    class="wd-circle-icon overlay-image"></div>
+                            <div class="left-margin username-font"><span
+                                    class="wd-bold-font">NASA</span> <i
+                                    class="fas fa-check-circle"></i><br>@NASA
+                            </div>
+                            <div class="push">
+                                <button class="btn btn-primary wd-float-right round follow-button button-primary-override">
+                                    Follow
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item sub-dark-mode">
+                        <div class="box">
+                            <div><img
+                                    src="https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_400x400.png"
+                                    class="wd-circle-icon overlay-image"></div>
+                            <div class="left-margin username-font"><span
+                                    class="wd-bold-font">Tesla</span> <i
+                                    class="fas fa-check-circle"></i><br>@Tesla
+                            </div>
+                            <div class="push">
+                                <button class="btn btn-primary wd-float-right round follow-button button-primary-override">
+                                    Follow
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
-        <hr class="wd-dividing-line" >
     </div>
 
-    <div>
-        <div class="wd-row">
-            <div class="wd-column">
-                <p class="wd-author">Bloomberg Opinion</p>
-                <p class="wd-title">Cras maximus nulla eget dictum suscipit</p>
+    <!--XXL-->
+    <div class="d-none d-xxl-block fa-2x">
+        XXL
+        <div class="row">
+            <div class="col-2">
+                <!--    Left column-->
+                <div class="list-group wd-font-15">
+                    <a href="#"
+                       class="list-group-item list-group-item-action dark-mode"
+                       aria-current="true">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="home.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-home"></i> Home</a>
+                    <a href="explore.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-hashtag"></i> Explore</a>
+                    <a href="notifications.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-bell"></i> Notifications</a>
+                    <a href="messages.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-envelope"></i> Messages</a>
+                    <a href="bookmarks.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-bookmark"></i> Bookmarks</a>
+                    <a href="#"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-list-ul"></i> Lists</a>
+                    <a href="profile.html"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <i class="fas fa-user"></i> Profile</a>
+                    <a href="#"
+                       class="list-group-item list-group-item-action dark-mode">
+                        <span class="fa-stack fa-xs" style="float:left;">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="overlay-font fas fa-ellipsis-h fa-stack-1x fa-inverse"></i>
+                            </span>
+                        <span style="float:left;">More</span>
+                    </a>
+                    <button class="btn btn-primary tweet-round wd-top-padding tweet-button button-primary-override2">
+                        Tweet
+                    </button>
+                </div>
             </div>
-            <div class="wd-column">
-                <img src="landscape-2.jpg" class="wd-article-img">
+
+            <div class="col-6 wd-font-15">
+                <!--    Middle Content-->
+                <!--    Search Bar-->
+                <span class="wd-magnifying-glass"><i class="fas fa-search"></i></span>
+                <input class="wd-search-twitter" placeholder="Search Twitter"/>
+                <a class="wd-configuration wd-link" href="explore-settings.html"><i
+                        class="fas fa-cog"></i></a>
+
+
+                <!--            Nav Tabs-->
+                <ul class="nav wd-font-15 wd-top-padding">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="for-you.html">For you</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="trending.html">Trending</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="news.html">News</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="sports.html">Sports</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="entertainment.html">Entertainment</a>
+                    </li>
+                </ul>
+
+                <!--            Main Content-->
+
+                <div class="img-container">
+                    <img src="https://earthsky.org/upl/2020/11/spacex-starship-prototype-2020-photo-e1604508831201.jpg"
+                         class="wd-content-holder">
+                    <span class="bottom-left">SpaceX's Starship</span>
+                </div>
+
+                <!--post1-->
+                <div class="wd-tweet">
+                    <div class="box">
+                        <div><span class="wd-tweet-subtitle">Web Development</span> <br>
+                            <span class="wd-bold-font">ReactJS</span> <i
+                                    class="fas fa-check-circle"></i><span
+                                    class="wd-tweet-subtitle"> - 2h</span>
+                            <br>
+                            React.js is a component based front end library that makes it very
+                            easy
+                            to build Single Page Applications or SPAs
+                        </div>
+                        <div class="push"><img
+                                class="wd-rounded-image"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png"/>
+                        </div>
+                    </div>
+                </div>
+
+                <!--    post2-->
+                <div class="wd-tweet wd-border-overlap">
+                    <div class="box">
+                        <div><span class="wd-tweet-subtitle">Web Development</span> <br>
+                            <span class="wd-bold-font">JavaScript</span> <i
+                                    class="fas fa-check-circle"></i><span
+                                    class="wd-tweet-subtitle"> - 2h</span>
+                            <br>
+                            JavaScript is a programming language that can run on browsers as
+                            well as
+                            desktops<br>
+                            <span class="wd-tweet-subtitle">123K Tweets</span>
+                        </div>
+                        <div class="push"><img
+                                class="wd-rounded-image"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png"/>
+                        </div>
+                    </div>
+                </div>
+
+                <!--post3-->
+                <div class="wd-tweet wd-border-overlap">
+                    <div class="box">
+                        <div><span class="wd-tweet-subtitle">Web Development</span> <br>
+                            <span class="wd-bold-font">jQuery</span>
+                            <br>
+                            <span class="wd-tweet-subtitle">123K Tweets</span>
+                        </div>
+                        <div class="push"><img
+                                class="wd-rounded-image"
+                                src="https://openjsf.org/wp-content/uploads/sites/84/2019/10/jquery-logo-vertical_large_square.png"/>
+                        </div>
+                    </div>
+                </div>
+
+                <!--post4-->
+                <div class="wd-tweet wd-border-overlap">
+                    <div class="box">
+                        <div><span class="wd-tweet-subtitle">Web Development</span> <br>
+                            <span class="wd-bold-font">NodeJS </span><i
+                                    class="fas fa-check-circle"></i><span
+                                    class="wd-tweet-subtitle"> - 2h</span>
+                            <br>
+                            <span class="wd-tweet-subtitle">123K Tweets</span>
+                        </div>
+                        <div class="push"><img
+                                class="wd-rounded-image"
+                                src="https://pbs.twimg.com/profile_images/1095952788021002241/3lWf8FMX.png"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <!--    Right Column-->
+                <ul class="list-group wd-font-15">
+                    <li class="list-group-item wd-bold-font sub-dark-mode">Who to follow</li>
+                    <li class="list-group-item sub-dark-mode">
+                        <div class="box">
+                            <div><img
+                                    src="https://pbs.twimg.com/profile_images/498930484273889280/652rxwyK_400x400.png"
+                                    class="wd-circle-icon overlay-image"></div>
+                            <div class="left-margin username-font"><span
+                                    class="wd-bold-font">Java</span> <i
+                                    class="fas fa-check-circle"></i><br>@Java
+                            </div>
+                            <div class="push">
+                                <button class="btn btn-primary wd-float-right round follow-button button-primary-override">
+                                    Follow
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item sub-dark-mode">
+                        <div class="box">
+                            <div><img
+                                    src="https://pbs.twimg.com/profile_images/1405603367045324801/CaXrPnKL.jpg"
+                                    class="wd-circle-icon overlay-image"></div>
+                            <div class="left-margin username-font"><span class="wd-bold-font">Relativity Space</span>
+                                <i class="fas fa-check-circle"></i><br>@relativityspace
+                            </div>
+                            <div class="push">
+                                <button class="btn btn-primary wd-float-right round follow-button button-primary-override">
+                                    Follow
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item sub-dark-mode">
+                        <div class="box">
+                            <div><img
+                                    src="https://cdn.iconscout.com/icon/free/png-256/virgin-9-282900.png"
+                                    class="wd-circle-icon overlay-image"></div>
+                            <div class="left-margin username-font"><span class="wd-bold-font">Virgin Galactic</span>
+                                <i class="fas fa-check-circle"></i><br>@virgingalactic
+                            </div>
+                            <div class="push">
+                                <button class="btn btn-primary wd-float-right round follow-button button-primary-override">
+                                    Follow
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item sub-dark-mode">
+                        <div class="box">
+                            <div><img
+                                    src="https://pbs.twimg.com/profile_images/1321163587679784960/0ZxKlEKB_400x400.jpg"
+                                    class="wd-circle-icon overlay-image"></div>
+                            <div class="left-margin username-font"><span
+                                    class="wd-bold-font">NASA</span> <i
+                                    class="fas fa-check-circle"></i><br>@NASA
+                            </div>
+                            <div class="push">
+                                <button class="btn btn-primary wd-float-right round follow-button button-primary-override">
+                                    Follow
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item sub-dark-mode">
+                        <div class="box">
+                            <div><img
+                                    src="https://pbs.twimg.com/profile_images/1337607516008501250/6Ggc4S5n_400x400.png"
+                                    class="wd-circle-icon overlay-image">
+                            </div>
+                            <div class="left-margin username-font"><span
+                                    class="wd-bold-font">Tesla</span> <i
+                                    class="fas fa-check-circle"></i><br>@Tesla
+                            </div>
+                            <div class="push">
+                                <button class="btn btn-primary wd-float-right round follow-button button-primary-override">
+                                    Follow
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
-        <hr class="wd-dividing-line" >
-    </div>
 
-    <div>
-        <div class="wd-row">
-            <div class="wd-column">
-                <p class="wd-topic">Entertainment</p>
-                <p class="wd-title"> Vivamus mattis et tellus eu laoreet</p>
-            </div>
-            <div class="wd-column">
-                <img src="landscape-4.jpg" class="wd-article-img">
-            </div>
-        </div>
-        <hr class="wd-dividing-line" >
     </div>
-
-    <div>
-        <p class="wd-topic">Trending in United States</p>
-        <p class="wd-title">Wonder Bread</p>
-        <p class="wd-num-tweets">1,234 Tweets</p>
-    </div>
-
 </div>
 
 </body>
+</html>

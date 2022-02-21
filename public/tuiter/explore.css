@@ -117,7 +117,7 @@
 
 .tweet-round{
     border-radius: 50px;
-    background-color: #1c9cf0;
+    background-color: #1DA1F2;
     color: white;
     font-weight: bold;
     font-size: 14px;
@@ -127,7 +127,7 @@
     /*.button-primary-override:active,*/
     /*.button-primary-override:focus,*/
     /*.button-primary-override:visited{*/
-    background-color: #1c9cf0;
+    background-color: #1DA1F2;
     color: white;
     border: 0;
 }

@@ -8,7 +8,7 @@ export default [
         shareImage: '../../images/inspiro.jpg',
         subtextTitle: "Countdown: Inspiration4 Mission to Space | Netflix Official Site",
         subtext: "Maecenas sollicitudin enim non egestas rhoncus. ",
-        link: 'netflix.com',
+        link: ' netflix.com',
         comments: '4.2K',
         retweet: '3.5K',
         likes: '37.5K'
@@ -22,7 +22,7 @@ export default [
         shareImage: '../../images/grimes.jpg',
         subtextTitle: 'Maecenas sollicitudin enim non egestas rhoncus.',
         subtext: 'Maecenas sollicitudin enim non egestas rhoncus.',
-        link:'nypost.com',
+        link:' nypost.com',
         comments: '965',
         retweet: '2.4K',
         likes: '4K'

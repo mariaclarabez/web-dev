@@ -10,19 +10,19 @@ const NavigationSidebar = (active) => {
                     <a href="../ExploreScreen/explore.html"
                        class="list-group-item list-group-item-action">
                         <i class="fas fa-hashtag "></i> Explore</a>
-                    <a href="notifications.html"
+                    <a href="../notifications.html"
                        class="list-group-item list-group-item-action">
                         <i class="fas fa-bell"></i> Notifications</a>
-                    <a href="messages.html"
+                    <a href="../messages.html"
                        class="list-group-item list-group-item-action">
                         <i class="fas fa-envelope"></i> Messages</a>
-                    <a href="bookmarks.html"
+                    <a href="../bookmarks.html"
                        class="list-group-item list-group-item-action">
                         <i class="fas fa-bookmark"></i> Bookmarks</a>
                     <a href="#"
                        class="list-group-item list-group-item-action">
                         <i class="fas fa-list-ul"></i> Lists</a>
-                    <a href="profile.html"
+                    <a href="../profile.html"
                        class="list-group-item list-group-item-action">
                         <i class="fas fa-user"></i> Profile</a>
                     <a href="#"
@@ -49,22 +49,22 @@ const NavigationSidebar = (active) => {
                 <a href="../HomeScreen/index.html"
                        class="list-group-item list-group-item-action">
                         <i class="fas fa-home"></i> Home</a>
-                    <a href="explore.html"
+                    <a href="../explore.html"
                        class="list-group-item list-group-item-action active">
                         <i class="fas fa-hashtag "></i> Explore</a>
-                    <a href="notifications.html"
+                    <a href="../notifications.html"
                        class="list-group-item list-group-item-action">
                         <i class="fas fa-bell"></i> Notifications</a>
-                    <a href="messages.html"
+                    <a href="../messages.html"
                        class="list-group-item list-group-item-action">
                         <i class="fas fa-envelope"></i> Messages</a>
-                    <a href="bookmarks.html"
+                    <a href="../bookmarks.html"
                        class="list-group-item list-group-item-action">
                         <i class="fas fa-bookmark"></i> Bookmarks</a>
                     <a href="#"
                        class="list-group-item list-group-item-action">
                         <i class="fas fa-list-ul"></i> Lists</a>
-                    <a href="profile.html"
+                    <a href="../profile.html"
                        class="list-group-item list-group-item-action">
                         <i class="fas fa-user"></i> Profile</a>
                     <a href="#"
@@ -77,7 +77,7 @@ const NavigationSidebar = (active) => {
                     </a>
             </div>
             <div class="d-grid mt-2">
-                <a href="tweet.html"
+                <a href="../tuit.html"
                    class="btn btn-primary btn-block rounded-pill">
                     Tweet</a>
             </div>

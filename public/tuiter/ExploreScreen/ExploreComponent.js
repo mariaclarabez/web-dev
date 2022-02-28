@@ -5,8 +5,8 @@ const ExploreComponent = () => {
             <div>
                        <!-- search field and cog -->
                    <span class="wd-magnifying-glass"><i class="fas fa-search"></i></span>
-                <input class="wd-search-twitter" placeholder="Search Twitter"/>
-                <a class=" wd-configuration wd-link" href="explore-settings.html"><i
+                <input class="wd-search-twitter" placeholder="Search Tuiter"/>
+                <a class=" wd-configuration wd-link" href="../explore-settings.html"><i
                         class="fas fa-cog"></i></a>
            </div>
            <ul class="nav mb-2 nav-tabs wd-top-padding">

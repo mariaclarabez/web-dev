@@ -6,7 +6,7 @@ const ExploreComponent = () => {
                 <div class="wd-header">
                     <div class="wd-search-area">
                         <i class="fas fa-search wd-mag-image"></i>
-                        <input class="wd-search-bar" type="text" placeholder="Search Twitter"/>
+                        <input class="wd-search-bar" type="text" placeholder="Search Tuiter"/>
                     </div>
                     <a href="settings.html"><i class="fa fa-cog wd-settings-icon"></i></a>
                 </div>
@@ -14,19 +14,19 @@ const ExploreComponent = () => {
            <ul class="nav mb-2 nav-tabs">
                 <ul class="nav nav-tabs flex-nowrap wd-main-tabs wd-text-no-wrap">
                     <li class="nav-item">
-                        <a class="nav-link active" href="for-you.html">For you</a>
+                        <a class="nav-link active" href="../for-you.html">For you</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="trending.html">Trending</a>
+                        <a class="nav-link" href="../trending.html">Trending</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="news.html">News</a>
+                        <a class="nav-link" href="../news.html">News</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="sports.html">Sports</a>
+                        <a class="nav-link" href="../sports.html">Sports</a>
                     </li>
                     <li class="nav-item d-none d-md-block">
-                        <a class="nav-link" href="entertainment.html">Entertainment</a>
+                        <a class="nav-link" href="../entertainment.html">Entertainment</a>
                     </li>
                 </ul>
            </ul>

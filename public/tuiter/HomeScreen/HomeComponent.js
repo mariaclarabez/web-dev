@@ -6,7 +6,7 @@ const HomeComponent = () => {
                 <div class="wd-header">
                     <div class="wd-search-area">
                         <i class="fas fa-search wd-mag-image"></i>
-                        <input class="wd-search-bar" type="text" placeholder="Search Twitter"/>
+                        <input class="wd-search-bar" type="text" placeholder="Search Tuiter"/>
                     </div>
                     <a href="settings.html"><i class="fa fa-cog wd-settings-icon"></i></a>
                 </div>

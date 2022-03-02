@@ -1,23 +1,19 @@
-import posts from "./posts.js"
-
-const PostSummaryItem = (posts) => {
+const PostSummaryItem = (post) => {
     return (`
-     <div class="wd-tweet wd-border-overlap">
-        <div class="box">
-            <div><span class="wd-tweet-subtitle">${posts.topic}</span> <br>
-                <span class="wd-bold-font">${posts.userName}</span> 
+        <div class="wd-tuit-summary">
+            <div class="wd-tuit-content-summary">
+                <span class="wd-tuit-detail">${post.topic}</span><br/>
+                <span class="wd-tuit-user"><b>${post.userName}</b></span>
                 <i class="fas fa-check-circle"></i>
-                <span class="wd-tweet-subtitle"> - ${posts.time}</span>
-                <br>
-                ${posts.title}<br>
-                <span class="wd-tweet-subtitle">${posts.tweets}</span>
+                <span class="wd-tuit-detail"> - ${post.time}</span><br/>
+                <span><b>${post.title}</b></span></br>
+                <span class="wd-tuit-detail">${post.tweets}</span>
             </div>
-            <div class="push"><img
-                    class="wd-rounded-image"
-                    src="${posts.image}"/>
-            </div>
+            <img
+            src=${post.image}
+            class="wd-tuit-image-summary"/>
         </div>
-    </div>
     `);
 }
+
 export default PostSummaryItem;

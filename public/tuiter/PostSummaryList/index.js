@@ -1,12 +1,17 @@
+
+
 import PostSummaryItem from "./PostSummaryItem.js";
-import posts from "./posts.js"
+import post from "./posts.js";
 
 const PostSummaryList = () => {
-    return(`
-     ${posts.map(posts => {
-        return(PostSummaryItem(posts));
+    return (`
+        <div class="wd-main-tuits wd-flex">
+            ${post.map(post => {
+        return (PostSummaryItem(post));
     }).join('')
     }
+        </div>
     `);
 }
+
 export default PostSummaryList;

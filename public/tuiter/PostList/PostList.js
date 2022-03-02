@@ -1,12 +1,15 @@
+import PostItems from "./PostItems.js";
 import PostItem from "./PostItem.js";
-import posts from "./posts.js"
 
-const PostSummaryList = () => {
-    return(`
-     ${posts.map(posts => {
-        return(PostItem(posts));
+const PostList = () => {
+    return (`
+        <div class="wd-bookmarked-tuits wd-flex">
+            ${PostItems.map(post => {
+        return (PostItem(post));
     }).join('')
     }
+        </div>
     `);
 }
-export default PostSummaryList;
+
+export default PostList;

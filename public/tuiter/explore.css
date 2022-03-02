@@ -1,381 +1,149 @@
-.wd-top-padding{
-    margin-top:15px;
-}
-
-.left-margin{
-    margin-left: 8px;
-}
-
-.img-container {
-    position: relative;
-    /*text-align: center;*/
-    color: white;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
-
-.bottom-left {
-    position: absolute;
-    left: 16px;
-    bottom: 12px;
-    left: 16px;
-    color: white;
-    font-size: xx-large;
-    font-weight: bold;
-}
-
-.wd-content-holder {
-    width: 100%;
-    padding-top: 12px;
-    padding-bottom: 0;
-}
-
-.wd-float-right{
-    float: right;
-}
-
-.username-font{
-    font-size: 15px;
-    /*white-space: nowrap;*/
-    /*transform: translateX(-10px)*/
-}
-
-.dark-mode{
-    background-color: black;
-    color: #d9d9d9;
-}
-
-.nav-item > a{
-    color: darkgray;
-    background-color: black;
-}
-
-.color-white{
-    color: #d9d9d9;
-}
-
-.active{
-    color: #d9d9d9;
-    border-bottom: #1c9cf0;
-    border-bottom-style: solid;
-}
-
-.nav-item > a:hover {
-    color: #d9d9d9;
-    border-bottom: #1c9cf0;
-    border-bottom-style: solid;
-}
-
-/*.nav-link-override {*/
-/*    color: #d9d9d9;*/
-/*}*/
-
-/*.nav-item-override:active {*/
-/*    background-color: black;*/
-/*    color: #d9d9d9;*/
-/*    border-bottom: 1px #1c9cf0;*/
-/*}*/
-
-.tweet-button{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 0;
-}
-
-.follow-button{
-    padding-left: 15px;
-    padding-right: 15px;
-    border: 0;
-}
-
-.follow-button1{
-    border: 0;
-}
-
-.button-primary-override:hover{
-    /*.button-primary-override:active,*/
-    /*.button-primary-override:focus,*/
-    /*.button-primary-override:visited{*/
-    background-color: white ;
-    color: black ;
-    border: 0;
-}
-
-.sub-dark-mode{
-    background-color: #212327;
-    color: white;
-}
-
-.overlay-font{
-    color: black;
-}
-
-.overlay-image{
+.wd-red{
     background-color: white;
 }
-
-.tweet-round{
-    border-radius: 50px;
-    background-color: #1DA1F2;
-    color: white;
-    font-weight: bold;
-    font-size: 14px;
+.wd-blue-bg{
+    background-color: rgb(29,161,242) !important;
 }
-
-.button-primary-override2:hover{
-    /*.button-primary-override:active,*/
-    /*.button-primary-override:focus,*/
-    /*.button-primary-override:visited{*/
-    background-color: #1DA1F2;
-    color: white;
-    border: 0;
+.wd-blue-fg{
+    color: rgb(29,161,242) !important;
 }
-
-.round {
-    border-radius: 50px;
-    background-color: white;
-    border-color: white;
-    color: black;
-    font-weight: bold;
-    font-size: 14px;
+.wd-no-wrap-text{
+    white-space: nowrap;
 }
-
-.wd-circle-icon{
-    border-radius: 40px;
-    width:50px;
-    height:50px;
+.wd-lightgray{
+    color: lightslategray !important;
 }
-
-.box {
+.wd-navigation-bar{
+    display: table;
+    margin-top: 12px;
+    color: darkslategray;
+}
+.wd-bottom-margin{
+    margin-bottom:  4px;
+}
+.wd-navigation-item{
+    border: 1px solid lightgray;
+    padding: 8px;
+    padding-left: 12px;
     display: flex;
     align-items: center;
 }
-
-.push {
-    margin-left: auto;
-    /*margin-right: auto;*/
+.wd-nav-title{
+    margin-left: 4px;
 }
-
-body {
-    background-color: black;
-    color: rgb(110, 118, 125);
-    margin-left: 16px;
-}
-
-.wd-link {
-    text-decoration: none;
-}
-
-.wd-title {
-    font-size: 20px;
-    margin-top: 12px;
-    margin-bottom: 0;
-}
-
-.wd-tweet-font {
-    font-size: 15px;
-}
-
-.wd-p-limit {
-    max-width: 506px;
-}
-
-.wd-margin-removed {
-    margin-top: 0;
-    margin-bottom: 12px;
-}
-
-.wd-background-transparent {
-    border-style: solid;
-}
-
-.wd-search-twitter {
-    color: white;
-    background: #212327;
-    border-radius: 25px;
-    border-style: none;
-    width: 80%;
-    padding: 5px 5px 5px 55px;
-    /*margin-left: 16px;*/
-}
-
-*:focus {
-    outline: 0;
-}
-
-.wd-configuration {
-    color: rgb(29, 161, 242);
-    font-size: 32px;
-    padding-left: 20px;
-    padding-top: 5px;
-}
-
-.wd-magnifying-glass {
-    position: relative;
-    margin-top: 15px;
-    left: 50px;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
-    background-color: black;
-    padding-left: 16px;
-}
-
-.grid-container > div {
-    background-color: black;
-    font-size: 15px;
-}
-
-.grid-item {
-    padding: 16px 16px 16px 16px;
-    font-size: 15px;
-}
-
-.wd-nav-link1 {
-    color: rgb(29, 161, 242);
-}
-
-.wd-nav-link2 {
-    color: rgb(110, 118, 125);
-}
-
-.wd-breakline {
-    width: 500px;
-    float: left;
-    border-color: rgb(110, 118, 125);
-}
-
-.wd-grid-col-min {
-    width: 500px;
-}
-
-.wd-bookmark-col-max {
-    width: 570px;
-}
-
-.wd-grid-col-right {
-    float: right;
-    margin-right: 32px;
-    padding-left: 16px;
-}
-
-.wd-tweet-border {
+.wd-tuit-button{
+    background-color: rgb(29,161,242);
     border-radius: 50px;
-}
-
-.wd-tweet-subtitle {
-    /*font-size: 13px;*/
-    color: rgb(110, 118, 125);
-}
-
-.wd-tweet {
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(110, 118, 125);
-    padding-top: 5px;
-    padding-left: 16px;
+    width: 100%;
     color: white;
-    overflow: auto;
-    padding-right: 16px;
-    padding-bottom: 8px;
+    text-align: center;
 }
-
-.wd-border-overlap {
-    border-top-color: black;
+.wd-header{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
 }
-
-.wd-image-adjust {
-    padding-bottom: 16px;
+.wd-search-area{
+    flex-basis: 100%;
+    display: flex;
 }
-
-.wd-rounded-image {
-    width: 100px;
-    height: 100px;
-    border-radius: 15px;
-    object-fit: cover;
-    float: right;
+.wd-search-bar{
+    padding-left: 30px;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    flex-basis: 100%;
 }
-
-.wd-round-profile-image {
-    width: 48px;
-    border-radius: 50%;
-    object-fit: cover;
-    /*float: left;*/
-    margin-right: 12px;
+.wd-mag-image{
+    position: relative;
+    left: 25px;
+    top: 6px;
+    margin-left: -20px;
+    color: lightslategray;
 }
-
-.wd-bold-font {
-    font-weight: bold;
+.wd-main-tabs{
+    margin-top: 12px;
+    font-size: 16px;
 }
-
-.wd-font-15{
-    font-size: 18px;
+.wd-settings-icon{
+    color: rgb(29,161,242);
+    margin-left: 12px;
+    font-size: 2.0em;
 }
-
-.wd-retweet-post {
-    max-width: 504px;
+.wd-stacked-icons-small{
+    font-size: 0.5em;
+    vertical-align: middle;
 }
-
-.wd-post-image {
-    width: 504px;
-    height: 264px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    object-fit: cover;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(110, 118, 125);
-    /*overflow: auto;*/
+.wd-main-tuits{
+    display: table;
+    border: 1px solid lightgray;
+    width: 100%;
+    margin-top: 12px;
 }
-
-.wd-post-text {
-    /*display: inline-block;*/
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    margin-top: 0;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(110, 118, 125);
-    border-top: black;
-    width: 480px;
-    padding: 12px 12px 12px 12px;
-    font-size: 15px;
-    /*overflow: auto;*/
+.wd-main-tuits-image{
+    width: 100%;
+    margin-bottom: -40px;
 }
-
-.wd-gray-text {
+.wd-main-image-text{
+    color: white;
+    font-size: 24px;
+    margin-left: 12px;
+}
+.wd-tuit{
+    color: darkslategray;
+    font-size: 13px;
+    margin-top: 0px;
+    padding: 8px;
+    border-top: 1px solid lightgray;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+.wd-tuit-content > .wd-tuit-detail{
     color: darkgray;
 }
-
-.wd-light-text {
-    color: lightgray;
+.wd-tuit-content{
 }
-
-.wd-red-text {
-    color: red;
+.wd-tuit-image{
+    height: 70px;
+    diplay: flex;
 }
-
-.flex-container {
+.wd-tuit-user{
+    font-size: 14px;
+}
+.wd-wtf-bar{
+    margin-top: 12px;
+    color: darkslategray;
+    font-size: 14px;
+}
+.wd-wtf-item{
+    border: 1px solid lightgray;
+    padding: 6px;
     display: flex;
-    margin-left: 0;
-    padding-bottom: 12px;
-}
-
-.flex-container > div {
-    padding-top: 12px;
-}
-
-.wd-icon-grid-container{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    background-color: black;
+    justify-content: space-between;
+    align-items: center;
     padding-left: 12px;
 }
-
-.wd-icon-grid-container > div {
-    background-color: black;
-    font-size: 15px;
+.wd-wtf-image{
+    height: auto;
+    width: 40px;
+    border-radius: 30px;
+    display: inline-block;
+    position: relative;
+    top:25%;
+    transform: translateY(-25%);
+}
+.wd-wtf-user{
+    white-space: nowrap;
+}
+.wd-wtf-follow{
+    background-color: rgb(29,161,242);
+    color: white;
+    border-radius: 30px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 12px;
+}
+.wd-wtf-user-info{
+    display: inline-block;
 }

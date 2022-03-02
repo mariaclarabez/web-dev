@@ -1,21 +1,18 @@
 const WhoToFollowListItem = (who) => {
     return (`
-         <li class="list-group-item">
-        <div class="box">
-            <div><img
-                    src="${who.avatarIcon}"
-                    class="wd-circle-icon overlay-image"></div>
-            <div class="left-margin username-font"><span
-                    class="wd-bold-font">${who.userName}</span> <i
-                    class="fas fa-check-circle"></i><br>@${who.handle}
+        <div class="wd-wtf-item list-group-item">
+            <div class="wd-wtf-user">
+                <img
+                    src=${who.avatarIcon}
+                    class="wd-wtf-image"/>
+                <div class="wd-wtf-user-info">
+                    <span><b>${who.userName}</b></span>
+                    <i class="fas fa-check-circle"></i> <br/>
+                    <span>${who.handle}</span>
+                </div>
             </div>
-            <div class="push">
-                <button class="btn btn-primary wd-float-right round follow-button button-primary-override">
-                    Follow
-                </button>
-            </div>
+            <button class="btn wd-wtf-follow">Follow</button>
         </div>
-     </li>
-        `);
+    `);
 }
 export default WhoToFollowListItem;

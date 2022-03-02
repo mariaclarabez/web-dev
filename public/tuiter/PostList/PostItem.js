@@ -1,39 +1,94 @@
-import posts from "./posts.js"
+const TuitImageCaption = (post) => {
+    if (post.imageBody !== "" || post.imageTitle !== "" || post.imageLink !== "") {
+        return (`
+            <div class="wd-tuit-image-caption">
+                <span><b>${post.imageTitle}</b></span><br/>
+                <span class="wd-light-gray-color">${post.imageBody}</span></br>
+                <i class="wd-detail fa fa-link"></i>
+                <span class="wd-detail">${post.imageLink}</span>
+            </div>
+        `);
 
-const PostItem = (posts) => {
+    }
+}
+
+const TuitImageComponent = (post) => {
+    if (post.image !== undefined){
+        const caption = TuitImageCaption(post);
+        const image =
+            (caption !== undefined) ?
+                `
+                <div class="wd-tuit-image-container">
+                    <img
+                        src="${post.image}"
+                        class="wd-tuit-image"/>
+                    ${TuitImageCaption(post)}
+                </div>
+                `
+                :
+                `
+                <div class="wd-tuit-image-container">
+                    <img
+                        src="${post.image}"
+                        class="wd-tuit-image"
+                        style="border-bottom-right-radius: 10px; 
+                                border-bottom-left-radius: 10px;"/>
+                </div>
+                `;
+        return image;
+    }
+
+}
+
+const PostItem = (post) => {
     return (`
-     <div class="wd-content-holder-post">
-      <div class="wd-grid-row">
-        <div class="wd-grid-col-left-sidebar">
-          <img src="${posts.image}" class="wd-circle-icon">
+        <div class="wd-bookmarked-tuit">
+        <img
+            src="${post.userPhoto}"
+            class="wd-user-image"/>
+        <div class="wd-tuit-body">
+            <div class="wd-tuit-header">
+                <span class="wd-username">
+                    <span>${post.userName}</span>
+                    <span class="fa-stack fa-1x wd-stacked-icons-small">
+                        <i class="fas fa-certificate fa-stack-2x"></i>
+                        <i class="fas fa-check fa-stack-1x" style="color: black"></i>
+                    </span>
+                    <span class="wd-user-handle">${post.handle}</span>
+                </span>
+            </div>
+            <div class="wd-tuit-content">
+                ${post.body}
+            </div>
+            ${TuitImageComponent(post)}
+            <div class="wd-tuit-metrics">
+                <div class="wd-tuit-metric">
+                    <a href="#" class="wd-no-underline">
+                        <i class="fa fa-comment wd-silver"></i>
+                        <span class="wd-light-gray-color">${post.comments}</span>
+                    </a>
+                </div>
+                <div class="wd-tuit-metric">
+                    <a href="#" class="wd-no-underline">
+                        <i class="fa fa-retweet wd-silver"></i>
+                        <span class="wd-light-gray-color">${post.retweets}</span>
+                    </a>
+                </div>
+                <div class="wd-tuit-metric">
+                    <a href="#" class="wd-no-underline">
+                        <i class="fas fa-heart" style="color: red"></i>
+                        <span class="wd-light-gray-color">${post.likes}</span>
+                    </a>
+                </div>
+                <div class="wd-tuit-metric">
+                    <a href="#" class="wd-no-underline wd-silver">
+                        <i class="fa fa-share"></i>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="wd-grid-col-main-content">
-            <span class='wd-user'>${posts.topic}</span>
-            <span class="wd-user-handle"> @${posts.userName} · ${posts.time} </span>
-            <span class='wd-content-menu'>...</span>
-            <br>
-            <p class="wd-content">
-              ${posts.title}
-            </p>
-            <br><br>
-          <div class="wd-content-holder-thumbnail">
-            <img src="${posts.shareImage}" class="wd-bookmark-img"><br>
-            <span class='wd-user' id="post-title">${posts.subtextTitle}</span><br>
-            <div id="post-content">${posts.subtext}</div>
-            <div id="post-content-link"><i class="fas fa-link"></i>${posts.link}</div>
-          </div>
-          
-          <div class=" wd-icon-grid-container wd-top-padding">
-            <div class="item1"><a class="wd-link wd-light-text" href="#"><i class="fa fa-comment"></i> ${posts.comments}</a></div>
-            <div class="item2"><a class="wd-link wd-light-text" href="#"><i class="fa fa-retweet"></i> ${posts.retweet}</a></div>
-            <div class="item3"><a class="wd-link wd-red-text" href="#">&hearts; ${posts.likes}</a></div>
-            <div class="item4"><a class="wd-link wd-light-text" href="#"><i class="far fa-share-square"></i></a></div>
-        </div>
-          
-          
-        </div>
-      </div> 
     </div>
     `);
 }
+
 export default PostItem;

@@ -1,3 +1,4 @@
+import React from "react";
 import WhoToFollowListItem from "./WhoToFollowListItem.js";
 import who from "./who.js";
 

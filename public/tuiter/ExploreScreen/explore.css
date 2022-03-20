@@ -124,7 +124,6 @@
 .wd-wtf-item{
     border: 1px solid black;
     display: flex;
-    background-color: rgb(16, 16, 16);
     justify-content: space-between;
     align-items: center;
     padding: 6px 6px 6px 12px;

@@ -8,16 +8,19 @@ const TuitImageCaption = ({
         imageLink: "",
     }
 }) => {
+    if (post.imageBody !== "" || post.imageTitle !== "" || post.imageLink !== "") {
         return (
             <>
-            <div className="wd-tuit-image-caption">
-                <span><b>{post.imageTitle}</b></span><br/>
-                <span className="wd-light-gray-color">{post.imageBody}</span><br/>
-                <i class="wd-detail fa fa-link"></i>
-                <span className="wd-detail">{post.imageLink}</span>
-            </div>
+                <div className="wd-tuit-image-caption">
+                    <span><b>{post.imageTitle}</b></span><br/>
+                    <span className="wd-light-gray-color">{post.imageBody}</span><br/>
+                    <i class="wd-detail fa fa-link"></i>
+                    <span className="wd-detail">{post.imageLink}</span>
+                </div>
             </>
         );
+    }
+    return null;
 
 
 }

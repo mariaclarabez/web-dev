@@ -7,6 +7,8 @@ import Labs from "./components/labs";
 import Tuiter from "./components/tuiter";
 import {BrowserRouter, Redirect, Route}
     from "react-router-dom"
+import ExploreScreen from "./components/tuiter/ExploreScreen/ExploreScreen";
+import HomeScreen from "./components/tuiter/HomeScreen/HomeScreen";
 
 
 
@@ -23,8 +25,11 @@ function App() {
                 <Route path={["/", "/labs"]} exact={true}>
                     <Labs/>
                 </Route>
-                <Route path={["/", "/tuiter"]} exact={true}>
-                    <Tuiter/>
+                <Route path={["/", "/tuiter/explore"]} exact={true}>
+                    <ExploreScreen/>
+                </Route>
+                <Route path={["/", "/tuiter/home"]} exact={true}>
+                    <HomeScreen/>
                 </Route>
 
             </div>

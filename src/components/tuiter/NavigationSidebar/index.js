@@ -12,12 +12,12 @@ const NavigationSidebar = ({
             <div className="list-group wd-bottom-margin wd-no-wrap-text">
                 <a className="list-group-item list-group-item-action wd-navigation-item" href="/">
                     <i class="fab fa-twitter"></i></a>
-                <Link to="#"
+                <Link to="tuiter/home"
                       className={`list-group-item list-group-item-action wd-navigation-item
         ${active === 'home' ? 'active' : ''}`}
                 >
                     <i class="fas fa-home"></i><span className="d-none d-xl-block wd-nav-title">Home</span></Link>
-                <Link to="#"
+                <Link to="/tuiter/explore"
                       className={`list-group-item list-group-item-action wd-navigation-item
         ${active === 'explore' ? 'active' : ''}`}>
                     <i class="fas fa-hashtag "></i><span className="d-none d-xl-block wd-nav-title">Explore</span></Link>

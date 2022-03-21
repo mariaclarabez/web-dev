@@ -28,7 +28,7 @@ function App() {
                 <Route path={["/", "/tuiter/explore"]} exact={true}>
                     <ExploreScreen/>
                 </Route>
-                <Route path={["/", "/tuiter/home"]} exact={true}>
+                <Route path={["/tuiter/home"]} exact={true}>
                     <HomeScreen/>
                 </Route>
 

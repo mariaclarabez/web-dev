@@ -19,8 +19,8 @@ const Labs = () => {
             <Link to="/hello">
                 Hello
             </Link> |
-            <Link to="/tuiter/explore">
-                Tuiter Explore
+            <Link to="/tuiter/home">
+                Tuiter Home
             </Link>
             <hr/>
         </div>

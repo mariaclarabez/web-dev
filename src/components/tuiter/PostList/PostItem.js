@@ -1,6 +1,6 @@
 import React from "react";
 
-
+z
 const TuitImageCaption = ({
     post = {
         imageTitle: "",
@@ -80,13 +80,13 @@ const PostItem = ({
                 <div className="wd-tuit-metric">
                     <a href="#" className="wd-no-underline">
                         <i class="fa fa-comment wd-silver"></i>
-                        <span className="wd-light-gray-color">{post.comments}</span>
+                        <span className="wd-light-gray-color"> {post.comments}</span>
                     </a>
                 </div>
                 <div className="wd-tuit-metric">
                     <a href="#" className="wd-no-underline">
                         <i class="fa fa-retweet wd-silver"></i>
-                        <span className="wd-light-gray-color">{post.retweets}</span>
+                        <span className="wd-light-gray-color"> {post.retweets}</span>
                     </a>
                 </div>
                 <div className="wd-tuit-metric">

@@ -5,14 +5,14 @@ import '../explore.css';
 
 
 const NavigationSidebar = ({
-                               active = 'explore'
+                               active = '/home'
                            }) => {
     return (
         <>
             <div className="list-group wd-bottom-margin wd-no-wrap-text">
                 <a className="list-group-item list-group-item-action wd-navigation-item" href="/">
                     <i class="fab fa-twitter"></i></a>
-                <Link to="/tuiter/home"
+                <Link to="/tuiter/"
                       className={`list-group-item list-group-item-action wd-navigation-item
         ${active === 'home' ? 'active' : ''}`}
                 >
@@ -33,9 +33,10 @@ const NavigationSidebar = ({
                 <a href="/"
                    className="list-group-item list-group-item-action wd-navigation-item">
                     <i class="fas fa-list"></i><span className="d-none d-xl-block wd-nav-title"> Lists</span></a>
-                <a href="/"
-                   className="list-group-item list-group-item-action wd-navigation-item">
-                    <i class="fas fa-user"></i> <span className="d-none d-xl-block wd-nav-title">Profile</span></a>
+                <Link to="/tuiter/profile"
+                    className={`list-group-item list-group-item-action wd-navigation-item
+        ${active === 'profile' ? 'active' : ''}`}>
+                    <i class="fas fa-user"></i> <span className="d-none d-xl-block wd-nav-title">Profile</span></Link>
                 <a href="/"
                    className="list-group-item list-group-item-action wd-navigation-item">
                         <span className="fa-stack fa-xs">

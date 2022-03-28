@@ -3,7 +3,7 @@ import PostItem from "./PostItem.js";
 
 const PostList = () => {
     return (
-        <div className="wd-bookmarked-tuits wd-flex">
+        <div className="">
             {PostItems.map(post => {
                 return (<PostItem post={post}/>
                 );

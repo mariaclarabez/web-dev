@@ -1,0 +1,14 @@
+{
+  "handle": "raven",
+  "avatarIcon": "../../../../images/raven.jpeg",
+  "firstName" : "Raven",
+  "lastName" : "Titan",
+  "banner" : "../../../../images/banner.jpeg",
+  "bio" : "Go Teen Titans :) <3 ",
+  "website": "youtube.com/webdevtv",
+  "location": "Boston, MA",
+  "dateOfBirth": "8/8/1955",
+  "dateJoined": "4/2009",
+  "followingCount": "312",
+  "followersCount": "180"
+}

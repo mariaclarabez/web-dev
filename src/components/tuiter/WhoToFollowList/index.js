@@ -1,10 +1,11 @@
 import React from "react";
 import WhoToFollowListItem from "./WhoToFollowListItem.js";
-import who from "./who.json"
+import {useSelector} from "react-redux";
 import '../explore.css';
 
 
 const WhoToFollowList = () => {
+    const who = useSelector(state => state.who);
     return (
         <div className="list-group wd-wtf-bar">
             <div className="list-group-item wd-wtf-item">

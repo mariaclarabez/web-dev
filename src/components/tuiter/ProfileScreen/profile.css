@@ -1,0 +1,532 @@
+.wd-font {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+.wd-top-padding{
+    margin-top:15px;
+}
+
+.wd-banner {
+    height: 200px;
+    width: 100%;
+}
+
+.wd-avatar-image {
+    width: 48px;
+}
+
+.wd-edit-buttons{
+    margin-top: 10px;
+    margin-left: 250px;
+    /*bottom: 70px;*/
+}
+
+.wd-edit-button {
+    /*margin-bottom: 10px;*/
+    margin-top: 10px;
+}
+
+.wd-border-radius-20px {
+    border-radius: 20px;
+}
+
+.left-margin{
+    margin-left: 8px;
+}
+
+.img-container {
+    position: relative;
+    /*text-align: center;*/
+    color: white;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.bottom-left {
+    position: absolute;
+    left: 16px;
+    left: 16px;
+    bottom: 12px;
+    left: 16px;
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.wd-grid-row {
+    clear: both;
+
+}
+
+.wd-grid-col-main-content {
+    width: 90%;
+    float: left;
+}
+
+.wd-content-holder-post {
+    width: 80%;
+    /*height: 600px;*/
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47, 51, 54)
+}
+
+.wd-content-holder-thumbnail {
+    width: 504px;
+    height: 390px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5%;
+    border-color: rgb(47, 51, 54)
+}
+
+#post-title {
+    padding: 12px;
+}
+
+#post-content {
+    padding: 12px;
+    color: rgb(85,90,96);
+}
+
+#post-content-link {
+    padding-left: 12px;
+    padding-bottom: 12px;
+    color: rgb(85,90,96);
+}
+
+.wd-bookmark-img {
+    height: 264px;
+    width: 504px;
+    margin-bottom: 12px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    background-color: blue;
+}
+
+.wd-content-holder {
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 0;
+}
+
+.wd-content {
+    color: white;
+    margin: 0%;
+    max-width: 506px;
+    font-size: 15px;
+}
+
+.wd-float-right{
+    float: right;
+}
+
+.username-font{
+    font-size: 15px;
+    /*white-space: nowrap;*/
+    /*transform: translateX(-10px)*/
+}
+
+.dark-mode{
+    background-color: black;
+    color: #d9d9d9;
+}
+
+.nav-item > a{
+    color: darkgray;
+    background-color: black;
+}
+
+.color-white{
+    color: #d9d9d9;
+}
+
+.active{
+    color: #d9d9d9;
+    border-bottom: #1c9cf0;
+    border-bottom-style: solid;
+}
+
+.nav-item > a:hover {
+    color: #d9d9d9;
+    border-bottom: #1c9cf0;
+    border-bottom-style: solid;
+}
+
+/*.nav-link-override {*/
+/*    color: #d9d9d9;*/
+/*}*/
+
+/*.nav-item-override:active {*/
+/*    background-color: black;*/
+/*    color: #d9d9d9;*/
+/*    border-bottom: 1px #1c9cf0;*/
+/*}*/
+
+.tweet-button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
+}
+
+.follow-button{
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0;
+}
+
+.follow-button1{
+    border: 0;
+}
+
+.button-primary-override:hover{
+    /*.button-primary-override:active,*/
+    /*.button-primary-override:focus,*/
+    /*.button-primary-override:visited{*/
+    background-color: white ;
+    color: black ;
+    border: 0;
+}
+
+.sub-dark-mode{
+    background-color: #212327;
+    color: white;
+}
+
+.overlay-font{
+    color: black;
+}
+
+.overlay-image{
+    background-color: white;
+}
+
+.tweet-round{
+    border-radius: 50px;
+    background-color: #1c9cf0;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.button-primary-override2:hover{
+    /*.button-primary-override:active,*/
+    /*.button-primary-override:focus,*/
+    /*.button-primary-override:visited{*/
+    background-color: #1c9cf0;
+    color: white;
+    border: 0;
+}
+
+.wd-round {
+    border-radius: 50px;
+    background-color: white;
+    border-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.wd-circle-icon{
+    border-radius: 40px;
+    width:50px;
+    height:50px;
+}
+
+.wd-form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+}
+
+.push {
+    margin-left: auto;
+    /*margin-right: auto;*/
+}
+
+body {
+    background-color: black;
+    color: rgb(110, 118, 125);
+    margin-left: 16px;
+}
+
+.wd-link {
+    text-decoration: none;
+}
+
+.wd-title {
+    font-size: 20px;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+.wd-tweet-font {
+    font-size: 15px;
+}
+
+.wd-p-limit {
+    max-width: 506px;
+}
+
+.wd-grid-row {
+    clear: both;
+}
+
+.wd-margin-removed {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.wd-background-transparent {
+    border-style: solid;
+}
+
+.wd-search-twitter {
+    color: white;
+    background: #212327;
+    border-radius: 25px;
+    border-style: none;
+    width: 80%;
+    padding: 5px 5px 5px 55px;
+    /*margin-left: 16px;*/
+}
+
+*:focus {
+    outline: 0;
+}
+
+.wd-configuration {
+    color: rgb(29, 161, 242);
+    font-size: 32px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.wd-magnifying-glass {
+    position: relative;
+    margin-top: 15px;
+    left: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: black;
+    padding-left: 16px;
+}
+
+.grid-container > div {
+    background-color: black;
+    font-size: 15px;
+}
+
+.grid-item {
+    padding: 16px 16px 16px 16px;
+    font-size: 15px;
+}
+
+.wd-nav-link1 {
+    color: rgb(29, 161, 242);
+}
+
+.wd-nav-link2 {
+    color: rgb(110, 118, 125);
+}
+
+.wd-grid-col-left-sidebar {
+    width: 10%;
+    float: left;
+}
+
+.wd-user {
+    color: white;
+    font-size: 15px;
+    max-width: 506px;
+    margin: 0% 0% 12px;
+}
+.wd-bio {
+    position:relative;
+    bottom:50px;
+}
+
+.wd-user-handle {
+    font-size: 18px;
+    color: grey;
+}
+.wd-profile-details {
+    color:grey;
+
+}
+
+.wd-breakline {
+    width: 500px;
+    float: left;
+    border-color: rgb(110, 118, 125);
+}
+
+.wd-grid-col-min {
+    width: 500px;
+}
+
+.wd-bookmark-col-max {
+    width: 570px;
+}
+
+.wd-grid-col-right {
+    float: right;
+    margin-right: 32px;
+    padding-left: 16px;
+}
+
+.wd-tweet-border {
+    border-radius: 50px;
+}
+
+.wd-tweet-subtitle {
+    /*font-size: 13px;*/
+    color: rgb(110, 118, 125);
+}
+
+.wd-tweet {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(110, 118, 125);
+    padding-top: 5px;
+    padding-left: 16px;
+    color: white;
+    overflow: auto;
+    padding-right: 16px;
+    padding-bottom: 8px;
+}
+
+.wd-border-overlap {
+    border-top-color: black;
+}
+
+.wd-image-adjust {
+    padding-bottom: 16px;
+}
+
+.wd-rounded-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    object-fit: cover;
+    float: right;
+}
+
+.wd-profile-pic {
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.over{
+    position:relative;
+    bottom:70px;
+}
+.wd-user-name {
+    color: white;
+    font-size: 20px;
+    position:relative;
+    bottom:60px;
+}
+
+
+.wd-website {
+    position:relative;
+    bottom:50px;
+    color:grey;
+}
+
+.wd-round-profile-image {
+    width: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    /*float: left;*/
+    margin-right: 12px;
+}
+
+.wd-a {
+    margin-bottom: 0px;
+}
+.wd-bold-font {
+    font-weight: bold;
+}
+
+.wd-font-15{
+    font-size: 18px;
+}
+
+.wd-retweet-post {
+    max-width: 504px;
+}
+
+.wd-post-image {
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(110, 118, 125);
+    /*overflow: auto;*/
+}
+
+.wd-post-text {
+    /*display: inline-block;*/
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: 0;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(110, 118, 125);
+    border-top: black;
+    width: 480px;
+    padding: 12px 12px 12px 12px;
+    font-size: 15px;
+    /*overflow: auto;*/
+}
+
+.wd-gray-text {
+    color: darkgray;
+}
+
+.wd-light-text {
+    color: lightgray;
+}
+
+.wd-red-text {
+    color: red;
+}
+
+.flex-container {
+    display: flex;
+    margin-left: 0;
+    padding-bottom: 12px;
+}
+
+.flex-container > div {
+    padding-top: 12px;
+}
+
+.wd-icon-grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: black;
+    padding-left: 12px;
+}
+
+.wd-icon-grid-container > div {
+    background-color: black;
+    font-size: 15px;
+}

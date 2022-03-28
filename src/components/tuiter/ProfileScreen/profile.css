@@ -352,18 +352,70 @@ body {
     max-width: 506px;
     margin: 0% 0% 12px;
 }
+
+.wd-back-button {
+    padding-right: 20px;
+}
 .wd-bio {
     position:relative;
     bottom:50px;
+    color: white;
+    font-size: 16px;
+}
+.wd-tweets-num {
+    font-size: 14px;
+    color: grey;
+    padding-left: 50px;
 }
 
 .wd-user-handle {
-    font-size: 18px;
+    font-size: 16px;
     color: grey;
+    position:relative;
+    bottom:63px;
 }
 .wd-profile-details {
+    position:relative;
+    bottom:40px;
     color:grey;
 
+}
+.wd-save-changes-btn {
+    color: black;
+    background-color: white;
+}
+
+.wd-save-changes {
+    padding-left: 230px;
+}
+.fa-times:hover {
+    color:white;
+}
+.wd-cancel-edit-profile {
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+.wd-top-container {
+    padding-left: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.wd-follow {
+    position:relative;
+    bottom:20px;
+    color:grey;
+}
+
+.wd-follow-item {
+    padding-right: 20px;
+}
+.wd-follow-number {
+    color: white;
+}
+.wd-profile-item {
+    padding-right: 25px;
 }
 
 .wd-breakline {
@@ -435,7 +487,7 @@ body {
 }
 .wd-user-name {
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     position:relative;
     bottom:60px;
 }

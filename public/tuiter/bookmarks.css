@@ -18,6 +18,12 @@
     color: lightgray;
     margin-bottom: 0px;
 }
+
+.wd-edit-bio {
+    margin-left: 16px;
+    margin-bottom: 0px;
+}
+
 .wd-dividing-line {
     margin-top: 12px;
     border: 1px solid lightgray;

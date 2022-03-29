@@ -10,7 +10,6 @@ import {BrowserRouter, Routes, Route}
 import ExploreScreen from "./components/tuiter/ExploreScreen/ExploreScreen";
 import HomeScreen from "./components/tuiter/HomeScreen/index.js";
 import ProfileScreen from "./components/tuiter/ProfileScreen/index.js";
-import James from './components/James';
 
 function App() {
     return (
@@ -34,7 +33,7 @@ function App() {
                             {/*<Route path="notifications"*/}
                             {/*       element={<NotificationScreen/>}/>*/}
                         </Route>
-                        <Route index element={<James />} />
+                        <Route index element={<Labs />} />
                     </Route>
                 </Routes>
             </div>

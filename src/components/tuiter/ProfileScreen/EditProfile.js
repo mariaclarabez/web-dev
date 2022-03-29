@@ -81,6 +81,7 @@ const EditProfile = (props) => {
                         <span className="wd-profile-item">
                             <i className="fas fa-calendar"></i>
                             <b> Joined {owner.dateJoined}</b></span>
+                        <span></span>
                     </span>
                 </div>
                 <div className="row">

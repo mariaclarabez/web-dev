@@ -386,7 +386,7 @@ body {
 }
 
 .wd-save-changes {
-    padding-left: 230px;
+   float: right;
 }
 .fa-times:hover {
     color:white;

@@ -70,7 +70,7 @@ const TuitListItem = ({tuit = {
                   "></i>
                     <VerifiedItem tuit={tuit}/>
 
-                    <span className="wd-user-handle"> @{tuit.handle}</span>
+                    <span className="wd-user-handle-2"> @{tuit.handle}</span>
                 </span>
                     </div>
                     <div className="wd-tuit-content">

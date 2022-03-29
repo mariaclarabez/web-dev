@@ -9,10 +9,10 @@ const NavigationSidebar = (active) => {
         <div class="list-group wd-bottom-margin wd-no-wrap-text">
             <a class="list-group-item list-group-item-action wd-navigation-item" href="/">
                 <i class="fab fa-twitter"></i></a>
-            <a class="list-group-item list-group-item-action wd-navigation-item `+NavigationItem(active, "home")+`" id="home" href="../HomeScreen/home.html">
+            <a class="list-group-item list-group-item-action wd-navigation-item `+NavigationItem(active, "home")+`" id="home" href="../HomeScreen/old-home.html">
                 <i class="fas fa-home"></i>
                 <span class="d-none d-xl-block wd-nav-title">Home</span></a>
-            <a class="list-group-item list-group-item-action wd-navigation-item `+NavigationItem(active, "explore")+`" id="explore" href=../ExploreScreen/explore.html>
+            <a class="list-group-item list-group-item-action wd-navigation-item `+NavigationItem(active, "explore")+`" id="explore" href=../ExploreScreen/old-explore.html>
                 <i class="fas fa-hashtag"></i>
                 <span class="d-none d-xl-block wd-nav-title">Explore</span></a>
             <a class="list-group-item list-group-item-action wd-navigation-item `+NavigationItem(active, "notifications")+`" id="notifications" href="../notifications.html">

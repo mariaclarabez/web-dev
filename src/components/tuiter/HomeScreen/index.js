@@ -1,4 +1,4 @@
-import TuitList from "../TuitList/index.js";
+import TuitList from "../TuitList/tuits-list.js";
 import WhatsHappening from "../WhatsHappening/whats-happening.js";
 
 const HomeScreen = () => {

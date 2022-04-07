@@ -1,5 +1,5 @@
 module.exports = {
-    entry: './src/index.js',
+    entry: './src/tuits-list.js',
     module: {
         rules: [
             {

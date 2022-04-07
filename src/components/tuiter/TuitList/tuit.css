@@ -25,6 +25,10 @@
 .wd-bottom-margin{
     margin-bottom:  4px;
 }
+.wd-delete-x {
+    float: right;
+}
+
 .wd-navigation-item{
     border: 1px solid black;
     padding: 8px 8px 8px 12px;
@@ -318,7 +322,8 @@ hr.wd-light-gray-hr{
     margin-right: 16px;
     padding: 10px;
     display: flex;
-    background-color: rgb(34, 34, 34)
+    background-color: rgb(34, 34, 34);
+    position: relative;
 }
 
 .wd-user-image-3{

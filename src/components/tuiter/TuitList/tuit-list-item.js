@@ -2,7 +2,8 @@ import React from "react";
 import "./tuit.css";
 import {useDispatch} from "react-redux";
 import TuitStats from "./tuit-stats";
-
+import {deleteTuit, updateTuit}
+    from "../../../actions/tuits-actions";
 
 
 const VerifiedItem = ({
@@ -50,24 +51,20 @@ const TuitListItem = ({tuit = {
     }
 }}) => {
     const dispatch = useDispatch();
-    const deleteTuit = (tuit) => {
-        dispatch({type: 'delete-tuit', tuit})
-    };
+
 
     return (
         <>
             <div className="wd-bookmarked-tuit">
+
                 <img
                     src={tuit.avatar}
                     className="wd-user-image-3"/>
                 <div className="wd-tuit-body">
                     <div className="wd-tuit-header">
                         <span className="wd-username">
-                    <span><b>{tuit.postedBy.username}</b></span>
-                <i onClick={() =>
-                    deleteTuit(tuit)}
-                   className="fas fa-times fa-pull-right wd-white
-                  "></i>
+                    <span><b>{tuit.postedBy?.username}</b></span>
+
                     <VerifiedItem tuit={tuit}/>
 
                     <span className="wd-user-handle-2"> @{tuit.handle}</span>
@@ -76,6 +73,20 @@ const TuitListItem = ({tuit = {
                     <div className="wd-tuit-content">
                         {tuit.tuit}
                     </div>
+                    <div>
+                        Likes: {tuit.likes}
+                        <i onClick={() => updateTuit(dispatch, {
+                            ...tuit,
+                            likes: tuit.likes + 1
+                        })} className="far fa-thumbs-up ms-2"></i>
+                    <span>
+                        <i onClick={() => updateTuit(dispatch, {
+                            ...tuit,
+                            likes: tuit.likes - 1
+                        })} className="far fa-thumbs-down ms-2"></i></span>
+                    </div>
+
+
                     <div className="wd-tuit-image-container">
                         {
                             tuit.attachments && tuit.attachments.image &&
@@ -93,8 +104,9 @@ const TuitListItem = ({tuit = {
                         }
                     </div>
                     <TuitStats tuit={tuit}/>
-
-
+                    <i onClick={() =>
+                        deleteTuit(dispatch, tuit)}
+                       className="fas fa-times wd-white" style={{ position: "absolute", right: "10px", top: "10px"}}/>
 
                 </div>
             </div>

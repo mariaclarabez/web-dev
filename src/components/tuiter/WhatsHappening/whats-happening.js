@@ -9,7 +9,7 @@ const WhatsHappening = () => {
         = useState('');
     const dispatch = useDispatch();
     const [newTuit, setNewTuit] =
-        useState({tuit: 'New tuit', postedBy: {username: 'Elon Musk'},
+        useState({tuit: 'New tuit', postedBy: {username: 'Elon Musk'}, likes: 0, dislikes: 0,
         verified: true, handle: 'elonmusk'});
 
     // const tuitClickHandler = () => {
